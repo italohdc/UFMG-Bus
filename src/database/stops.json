@@ -1,5 +1,18 @@
 [
   {
-    "name": "abc"
+    "id": "stop-01",
+    "name": "ESCOLA DE MÚSICA"
+  },
+  {
+    "id": "stop-02",
+    "name": "BELAS ARTES"
+  },
+  {
+    "id": "stop-03",
+    "name": "CAD 2"
+  },
+  {
+    "id": "stop-let",
+    "name": "LETRAS"
   }
 ]
