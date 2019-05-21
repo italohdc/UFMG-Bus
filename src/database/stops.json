@@ -1,18 +1,194 @@
 [
   {
-    "id": "stop-01",
-    "name": "ESCOLA DE MÚSICA"
+    "id": "stop-alameda-dos-jacarandas",
+    "name": "Alameda dos Jacarandás"
   },
   {
-    "id": "stop-02",
-    "name": "BELAS ARTES"
+    "id": "stop-av-abrahao-caran",
+    "name": "Av. Abrahão Caran (em frente ao Restaurante Farroupilha)"
   },
   {
-    "id": "stop-03",
+    "id": "stop-av-cel-jose-dias-bicalho",
+    "name": "Av. Cel. José Dias Bicalho"
+  },
+  {
+    "id": "stop-av-cel-oscar-pascoal",
+    "name": "Av. Cel. Oscar Pascoal"
+  },
+  {
+    "id": "stop-av-chaffir-ferreira",
+    "name": "Av. Chaffir Ferreira"
+  },
+  {
+    "id": "stop-av-das-palmeiras",
+    "name": "Av. das Palmeiras"
+  },
+  {
+    "id": "stop-av-otacilio-negrao-de-lima",
+    "name": "Av. OtacíLio Negrão De Lima"
+  },
+  {
+    "id": "stop-av-presidente-antonio-carlos",
+    "name": "Av. Presidente Antônio Carlos"
+  },
+  {
+    "id": "stop-av-presidente-carlos-luz",
+    "name": "Av. Presidente Carlos Luz (em frente ao McDonald's)"
+  },
+  {
+    "id": "stop-belas-artes",
+    "name": "Belas Artes"
+  },
+  {
+    "id": "stop-bhtec",
+    "name": "BHTEC"
+  },
+  {
+    "id": "stop-biblioteca-universitaria",
+    "name": "Biblioteca Universitária"
+  },
+  {
+    "id": "stop-bioterio-central",
+    "name": "Biotério Central"
+  },
+  {
+    "id": "stop-cad-1",
+    "name": "CAD 1"
+  },
+  {
+    "id": "stop-cad-2",
     "name": "CAD 2"
   },
   {
-    "id": "stop-let",
-    "name": "LETRAS"
+    "id": "stop-centro-esportivo",
+    "name": "Centro Esportivo"
+  },
+  {
+    "id": "stop-centro-pedagogico",
+    "name": "Centro Pedagógico"
+  },
+  {
+    "id": "stop-ciencia-da-informacao",
+    "name": "Ciência Da Informação"
+  },
+  {
+    "id": "stop-cnen-cdtn",
+    "name": "CNEN/CDTN"
+  },
+  {
+    "id": "stop-colegio-tecnico",
+    "name": "Colégio Técnico"
+  },
+  {
+    "id": "stop-creche",
+    "name": "Creche"
+  },
+  {
+    "id": "stop-eeffto",
+    "name": "EEFFTO"
+  },
+  {
+    "id": "stop-engenharia-eletrica",
+    "name": "Engenharia Elétrica"
+  },
+  {
+    "id": "stop-engenharia",
+    "name": "Engenharia"
+  },
+  {
+    "id": "stop-escola-de-musica",
+    "name": "Escola de Música"
+  },
+  {
+    "id": "stop-estação-ecologica",
+    "name": "Estação Ecológica"
+  },
+  {
+    "id": "stop-face",
+    "name": "FACE"
+  },
+  {
+    "id": "stop-fae",
+    "name": "FAE"
+  },
+  {
+    "id": "stop-fafich",
+    "name": "FAFICH"
+  },
+  {
+    "id": "stop-farmacia",
+    "name": "Farmácia"
+  },
+  {
+    "id": "stop-fisica",
+    "name": "Física"
+  },
+  {
+    "id": "stop-geociencias",
+    "name": "Geociências"
+  },
+  {
+    "id": "stop-icb",
+    "name": "ICB"
+  },
+  {
+    "id": "stop-icex",
+    "name": "ICEx"
+  },
+  {
+    "id": "stop-letras",
+    "name": "Letras"
+  },
+  {
+    "id": "stop-odontologia",
+    "name": "Odontologia"
+  },
+  {
+    "id": "stop-praca-de-servicos",
+    "name": "Praça de Serviços"
+  },
+  {
+    "id": "stop-quimica",
+    "name": "Química"
+  },
+  {
+    "id": "stop-reitoria",
+    "name": "Reitoria"
+  },
+  {
+    "id": "stop-retorno-na-av-alfredo-camarate",
+    "name": "Retorno na Av. Alfredo Camarate"
+  },
+  {
+    "id": "stop-rua-prof-eduardo-m-guimaraes",
+    "name": "Rua Prof. Eduardo M. Guimarães"
+  },
+  {
+    "id": "stop-rua-prof-jose-vieira-mendonca",
+    "name": "Rua Prof. José Vieira Mendonça"
+  },
+  {
+    "id": "stop-restaurante-setorial-1",
+    "name": "Restaurante Setorial I (Bandejão 1)"
+  },
+  {
+    "id": "stop-restaurante-setorial-2",
+    "name": "Restaurante Setorial II (Bandejão 2)"
+  },
+  {
+    "id": "stop-unidade-administrativa-3",
+    "name": "Unidade Administrativa III"
+  },
+  {
+    "id": "stop-unidade-administrativa-2",
+    "name": "Unidade Administrativa II"
+  },
+  {
+    "id": "stop-usiminas",
+    "name": "Usiminas"
+  },
+  {
+    "id": "stop-veterinaria",
+    "name": "Veterinária"
   }
 ]
