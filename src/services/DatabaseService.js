@@ -15,12 +15,24 @@ export default class DatabaseService {
       routes: Routes,
       schedules: Schedules,
     };
+
+    // Sort some collections by name
     shouldSortByName.forEach(collection => {
       this.db[collection].sort(function(a, b) {
         const textA = a.name.toLowerCase();
         const textB = b.name.toLowerCase();
         return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
       });
+    });
+
+    this.populate('_schedule', this.db.lines, this.db.schedules);
+  }
+
+  async populate(modelName, collectionToPopulate, collectionToSearchFrom) {
+    collectionToPopulate.forEach(collection => {
+      if (typeof collection[modelName] === 'string' || collection[modelName] instanceof String) {
+        collection[modelName] = collectionToSearchFrom.find(col => col.id === collection[modelName]);
+      }
     });
   }
 

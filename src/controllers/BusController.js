@@ -1,17 +1,15 @@
 import DatabaseService from '../services/DatabaseService';
 
-export default class BusController {
-  constructor() {
-    this.db = new DatabaseService();
-  }
+const db = new DatabaseService();
 
+export default {
   availableLines() {
-    const lines = this.db.get('lines');
+    const lines = db.get('lines');
     return lines;
-  }
+  },
 
   availableStops() {
-    const stops = this.db.get('stops');
+    const stops = db.get('stops');
     return stops;
   }
 }

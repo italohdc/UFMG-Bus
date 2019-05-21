@@ -4,7 +4,7 @@ import 'vuetify/src/stylus/app.styl'
 import pt from 'vuetify/es5/locale/pt'
 
 Vue.use(Vuetify, {
-  iconfont: 'mdi',
+  iconfont: 'md',
   lang: {
     locales: { pt },
     current: 'pt'

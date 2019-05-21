@@ -5,14 +5,14 @@
 </template>
 
 <script>
-import AppBus from './components/AppBus.vue'
+import AppBus from './components/AppBus.vue';
 
 export default {
   name: 'app',
   components: {
     AppBus
   }
-}
+};
 </script>
 
 <style>
