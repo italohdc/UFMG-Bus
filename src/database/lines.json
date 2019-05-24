@@ -3,60 +3,70 @@
     "id": "line-1",
     "name": "Linha 1",
     "description": "Período Letivo",
-    "_schedule": "sch-line-1"
+    "_schedule": "sch-line-1",
+    "_route": "route-line-1"
   },
   {
     "id": "line-1-acd",
     "name": "Linha 1",
     "description": "Atendimento Curso Design",
-    "_schedule": "sch-line-1-acd"
+    "_schedule": "sch-line-1-acd",
+    "_route": "route-line-1-acd"
   },
   {
     "id": "line-2",
     "name": "Linha 2",
     "description": "Período Letivo",
-    "_schedule": "sch-line-2"
+    "_schedule": "sch-line-2",
+    "_route": "route-line-2"
   },
   {
     "id": "line-2-agcav",
     "name": "Linha 2",
     "description": "Atendimento Gravura do Curso Artes Visuais",
-    "_schedule": "sch-line-2-agcav"
+    "_schedule": "sch-line-2-agcav",
+    "_route": "route-line-2-agcav"
   },
   {
     "id": "line-2-acd",
     "name": "Linha 2",
     "description": "Atendimento Curso Design",
-    "_schedule": "sch-line-2-acd"
+    "_schedule": "sch-line-2-acd",
+    "_route": "route-line-2-acd"
   },
   {
     "id": "line-3",
     "name": "Linha 3",
     "description": "Período Letivo",
-    "_schedule": "sch-line-3"
+    "_schedule": "sch-line-3",
+    "_route": "route-line-3"
   },
   {
     "id": "line-3-bhtec",
     "name": "Linha 3",
     "description": "Atendimento BH-TEC",
-    "_schedule": "sch-line-3-bhtec"
+    "_schedule": "sch-line-3-bhtec",
+    "_route": "route-line-3-bhtec"
   },
   {
     "id": "line-4",
     "name": "Linha 4",
-    "description": "Atendimento BH-TEC",
-    "_schedule": "sch-line-4"
+    "description": "Período Letivo",
+    "_schedule": "sch-line-4",
+    "_route": "route-line-4"
   },
   {
     "id": "line-4-mc",
     "name": "Linha 4",
     "description": "Atendimento McDonald's",
-    "_schedule": "sch-line-4-mc"
+    "_schedule": "sch-line-4-mc",
+    "_route": "route-line-4-mc"
   },
   {
     "id": "line-4-mc-bhtec",
     "name": "Linha 4",
     "description": "Atendimento BH-TEC e McDonalds",
-    "_schedule": "sch-line-4-mc-bhtec"
+    "_schedule": "sch-line-4-mc-bhtec",
+    "_route": "route-line-4-mc-bhtec"
   }
 ]

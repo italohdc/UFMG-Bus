@@ -1,1 +1,1536 @@
-[]
+[
+  {
+    "id": "route-line-1",
+    "route": [
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-cad-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-letras",
+        "delay": null
+      },
+      {
+        "_stop": "stop-ciencia-da-informacao",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fafich",
+        "delay": null
+      },
+      {
+        "_stop": "stop-face",
+        "delay": null
+      },
+      {
+        "_stop": "stop-reitoria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-praca-de-servicos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-biblioteca-universitaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-reitoria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-unidade-administrativa-3",
+        "delay": null
+      },
+      {
+        "_stop": "stop-unidade-administrativa-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-abrahao-caram",
+        "delay": null
+      },
+      {
+        "_stop": "stop-centro-esportivo",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-presidente-carlos-luz",
+        "delay": null
+      },
+      {
+        "_stop": "stop-eeffto",
+        "delay": null
+      },
+      {
+        "_stop": "stop-odontologia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-estacao-ecologica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-farmacia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fisica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia-eletrica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-cnen-cdtn",
+        "delay": null
+      },
+      {
+        "_stop": "stop-colegio-tecnico",
+        "delay": null
+      },
+      {
+        "_stop": "stop-quimica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-icex",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fafich",
+        "delay": null
+      },
+      {
+        "_stop": "stop-ciencia-da-informacao",
+        "delay": null
+      },
+      {
+        "_stop": "stop-letras",
+        "delay": null
+      },
+      {
+        "_stop": "stop-cad-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      }
+    ]
+  },
+  {
+    "id": "route-line-1-acd",
+    "route": [
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-cad-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-letras",
+        "delay": null
+      },
+      {
+        "_stop": "stop-ciencia-da-informacao",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fafich",
+        "delay": null
+      },
+      {
+        "_stop": "stop-face",
+        "delay": null
+      },
+      {
+        "_stop": "stop-reitoria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-praca-de-servicos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-biblioteca-universitaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-reitoria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-unidade-administrativa-3",
+        "delay": null
+      },
+      {
+        "_stop": "stop-unidade-administrativa-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-abrahao-caram",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-das-palmeiras",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-cel-jose-dias-bicalho",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-presidente-antonio-carlos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-abrahao-caram",
+        "delay": null
+      },
+      {
+        "_stop": "stop-centro-esportivo",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-presidente-carlos-luz",
+        "delay": null
+      },
+      {
+        "_stop": "stop-eeffto",
+        "delay": null
+      },
+      {
+        "_stop": "stop-odontologia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-estacao-ecologica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-farmacia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fisica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia-eletrica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-cnen-cdtn",
+        "delay": null
+      },
+      {
+        "_stop": "stop-colegio-tecnico",
+        "delay": null
+      },
+      {
+        "_stop": "stop-quimica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-icex",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fafich",
+        "delay": null
+      },
+      {
+        "_stop": "stop-ciencia-da-informacao",
+        "delay": null
+      },
+      {
+        "_stop": "stop-letras",
+        "delay": null
+      },
+      {
+        "_stop": "stop-cad-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      }
+    ]
+  },
+  {
+    "id": "route-line-2",
+    "route": [
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-cad-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-letras",
+        "delay": null
+      },
+      {
+        "_stop": "stop-ciencia-da-informacao",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fafich",
+        "delay": null
+      },
+      {
+        "_stop": "stop-face",
+        "delay": null
+      },
+      {
+        "_stop": "stop-reitoria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-praca-de-servicos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-biblioteca-universitaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-reitoria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-unidade-administrativa-3",
+        "delay": null
+      },
+      {
+        "_stop": "stop-unidade-administrativa-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-abrahao-caram",
+        "delay": null
+      },
+      {
+        "_stop": "stop-centro-esportivo",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-presidente-carlos-luz",
+        "delay": null
+      },
+      {
+        "_stop": "stop-eeffto",
+        "delay": null
+      },
+      {
+        "_stop": "stop-odontologia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-estacao-ecologica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-farmacia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fisica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia-eletrica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-cnen-cdtn",
+        "delay": null
+      },
+      {
+        "_stop": "stop-colegio-tecnico",
+        "delay": null
+      },
+      {
+        "_stop": "stop-quimica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-icex",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-geociencias",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-1",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fae",
+        "delay": null
+      },
+      {
+        "_stop": "stop-centro-pedagogico",
+        "delay": null
+      },
+      {
+        "_stop": "stop-creche",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      }
+    ]
+  },
+  {
+    "id": "route-line-2-agcav",
+    "route": [
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-cad-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-letras",
+        "delay": null
+      },
+      {
+        "_stop": "stop-ciencia-da-informacao",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fafich",
+        "delay": null
+      },
+      {
+        "_stop": "stop-face",
+        "delay": null
+      },
+      {
+        "_stop": "stop-reitoria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-praca-de-servicos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-biblioteca-universitaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-reitoria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-unidade-administrativa-3",
+        "delay": null
+      },
+      {
+        "_stop": "stop-unidade-administrativa-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-abrahao-caram",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-das-palmeiras",
+        "delay": null
+      },
+      {
+        "_stop": "stop-alameda-dos-jacarandas",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-chaffir-ferreira",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-otacilio-negrao-de-lima",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-cel-oscar-pascoal",
+        "delay": null
+      },
+      {
+        "_stop": "stop-centro-esportivo",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-presidente-antonio-carlos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-eeffto",
+        "delay": null
+      },
+      {
+        "_stop": "stop-odontologia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-estacao-ecologica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-farmacia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fisica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia-eletrica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-cnen-cdtn",
+        "delay": null
+      },
+      {
+        "_stop": "stop-colegio-tecnico",
+        "delay": null
+      },
+      {
+        "_stop": "stop-quimica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-icex",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-geociencias",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-1",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fae",
+        "delay": null
+      },
+      {
+        "_stop": "stop-centro-pedagogico",
+        "delay": null
+      },
+      {
+        "_stop": "stop-creche",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      }
+    ]
+  },
+  {
+    "id": "route-line-2-acd",
+    "route": [
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-cad-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-letras",
+        "delay": null
+      },
+      {
+        "_stop": "stop-ciencia-da-informacao",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fafich",
+        "delay": null
+      },
+      {
+        "_stop": "stop-face",
+        "delay": null
+      },
+      {
+        "_stop": "stop-reitoria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-praca-de-servicos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-biblioteca-universitaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-reitoria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-unidade-administrativa-3",
+        "delay": null
+      },
+      {
+        "_stop": "stop-unidade-administrativa-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-abrahao-caram",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-das-palmeiras",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-cel-jose-dias-bicalho",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-presidente-antonio-carlos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-abrahao-caram",
+        "delay": null
+      },
+      {
+        "_stop": "stop-centro-esportivo",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-presidente-carlos-luz",
+        "delay": null
+      },
+      {
+        "_stop": "stop-eeffto",
+        "delay": null
+      },
+      {
+        "_stop": "stop-odontologia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-estacao-ecologica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-farmacia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fisica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia-eletrica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-cnen-cdtn",
+        "delay": null
+      },
+      {
+        "_stop": "stop-colegio-tecnico",
+        "delay": null
+      },
+      {
+        "_stop": "stop-quimica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-icex",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-geociencias",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-1",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fae",
+        "delay": null
+      },
+      {
+        "_stop": "stop-centro-pedagogico",
+        "delay": null
+      },
+      {
+        "_stop": "stop-creche",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      }
+    ]
+  },
+  {
+    "id": "route-line-3",
+    "route": [
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-creche",
+        "delay": null
+      },
+      {
+        "_stop": "stop-centro-pedagogico",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fae",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-1",
+        "delay": null
+      },
+      {
+        "_stop": "stop-geociencias",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-praca-de-servicos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-biblioteca-universitaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-reitoria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-cad-1",
+        "delay": null
+      },
+      {
+        "_stop": "stop-icb",
+        "delay": null
+      },
+      {
+        "_stop": "stop-bioterio-central",
+        "delay": null
+      },
+      {
+        "_stop": "stop-farmacia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-odontologia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-estacao-ecologica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-eeffto",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-presidente-antonio-carlos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-abrahao-caram",
+        "delay": null
+      },
+      {
+        "_stop": "stop-unidade-administrativa-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-unidade-administrativa-3",
+        "delay": null
+      },
+      {
+        "_stop": "stop-reitoria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-rua-prof-eduardo-m-guimaraes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fafich",
+        "delay": null
+      },
+      {
+        "_stop": "stop-ciencia-da-informacao",
+        "delay": null
+      },
+      {
+        "_stop": "stop-letras",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      }
+    ]
+  },
+  {
+    "id": "route-line-3-bhtec",
+    "route": [
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-creche",
+        "delay": null
+      },
+      {
+        "_stop": "stop-centro-pedagogico",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fae",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-1",
+        "delay": null
+      },
+      {
+        "_stop": "stop-geociencias",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-praca-de-servicos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-biblioteca-universitaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-reitoria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-cad-1",
+        "delay": null
+      },
+      {
+        "_stop": "stop-icb",
+        "delay": null
+      },
+      {
+        "_stop": "stop-bioterio-central",
+        "delay": null
+      },
+      {
+        "_stop": "stop-farmacia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-odontologia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-estacao-ecologica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-eeffto",
+        "delay": null
+      },
+      {
+        "_stop": "stop-usiminas",
+        "delay": null
+      },
+      {
+        "_stop": "stop-rua-prof-jose-vieira-mendonca",
+        "delay": null
+      },
+      {
+        "_stop": "stop-bhtec",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-presidente-antonio-carlos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-abrahao-caram",
+        "delay": null
+      },
+      {
+        "_stop": "stop-unidade-administrativa-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-unidade-administrativa-3",
+        "delay": null
+      },
+      {
+        "_stop": "stop-reitoria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-rua-prof-eduardo-m-guimaraes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fafich",
+        "delay": null
+      },
+      {
+        "_stop": "stop-ciencia-da-informacao",
+        "delay": null
+      },
+      {
+        "_stop": "stop-letras",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      }
+    ]
+  },
+  {
+    "id": "route-line-4",
+    "route": [
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-creche",
+        "delay": null
+      },
+      {
+        "_stop": "stop-centro-pedagogico",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fae",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-1",
+        "delay": null
+      },
+      {
+        "_stop": "stop-geociencias",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-praca-de-servicos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-biblioteca-universitaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-reitoria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-cad-1",
+        "delay": null
+      },
+      {
+        "_stop": "stop-icb",
+        "delay": null
+      },
+      {
+        "_stop": "stop-bioterio-central",
+        "delay": null
+      },
+      {
+        "_stop": "stop-farmacia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-estacao-ecologica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-odontologia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-eeffto",
+        "delay": null
+      },
+      {
+        "_stop": "stop-eeffto",
+        "delay": null
+      },
+      {
+        "_stop": "stop-odontologia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-estacao-ecologica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-farmacia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-icex",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-geociencias",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-1",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fae",
+        "delay": null
+      },
+      {
+        "_stop": "stop-centro-pedagogico",
+        "delay": null
+      },
+      {
+        "_stop": "stop-creche",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      }
+    ]
+  },
+  {
+    "id": "route-line-4-mc",
+    "route": [
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-creche",
+        "delay": null
+      },
+      {
+        "_stop": "stop-centro-pedagogico",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fae",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-1",
+        "delay": null
+      },
+      {
+        "_stop": "stop-geociencias",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-praca-de-servicos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-biblioteca-universitaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-reitoria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-cad-1",
+        "delay": null
+      },
+      {
+        "_stop": "stop-icb",
+        "delay": null
+      },
+      {
+        "_stop": "stop-bioterio-central",
+        "delay": null
+      },
+      {
+        "_stop": "stop-farmacia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-estacao-ecologica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-odontologia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-eeffto",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-presidente-antonio-carlos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-retorno-na-av-alfredo-camarate",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-presidente-antonio-carlos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-eeffto",
+        "delay": null
+      },
+      {
+        "_stop": "stop-odontologia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-estacao-ecologica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-farmacia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-icex",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-geociencias",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-1",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fae",
+        "delay": null
+      },
+      {
+        "_stop": "stop-centro-pedagogico",
+        "delay": null
+      },
+      {
+        "_stop": "stop-creche",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      }
+    ]
+  },
+  {
+    "id": "route-line-4-mc-bhtec",
+    "route": [
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-creche",
+        "delay": null
+      },
+      {
+        "_stop": "stop-centro-pedagogico",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fae",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-1",
+        "delay": null
+      },
+      {
+        "_stop": "stop-geociencias",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-praca-de-servicos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-biblioteca-universitaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-reitoria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-cad-1",
+        "delay": null
+      },
+      {
+        "_stop": "stop-icb",
+        "delay": null
+      },
+      {
+        "_stop": "stop-bioterio-central",
+        "delay": null
+      },
+      {
+        "_stop": "stop-farmacia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-estacao-ecologica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-odontologia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-eeffto",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-presidente-antonio-carlos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-retorno-na-av-alfredo-camarate",
+        "delay": null
+      },
+      {
+        "_stop": "stop-av-presidente-antonio-carlos",
+        "delay": null
+      },
+      {
+        "_stop": "stop-rua-prof-jose-vieira-mendonca",
+        "delay": null
+      },
+      {
+        "_stop": "stop-bhtec",
+        "delay": null
+      },
+      {
+        "_stop": "stop-eeffto",
+        "delay": null
+      },
+      {
+        "_stop": "stop-odontologia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-estacao-ecologica",
+        "delay": null
+      },
+      {
+        "_stop": "stop-veterinaria",
+        "delay": null
+      },
+      {
+        "_stop": "stop-farmacia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-2",
+        "delay": null
+      },
+      {
+        "_stop": "stop-icex",
+        "delay": null
+      },
+      {
+        "_stop": "stop-engenharia",
+        "delay": null
+      },
+      {
+        "_stop": "stop-geociencias",
+        "delay": null
+      },
+      {
+        "_stop": "stop-restaurante-setorial-1",
+        "delay": null
+      },
+      {
+        "_stop": "stop-fae",
+        "delay": null
+      },
+      {
+        "_stop": "stop-centro-pedagogico",
+        "delay": null
+      },
+      {
+        "_stop": "stop-creche",
+        "delay": null
+      },
+      {
+        "_stop": "stop-belas-artes",
+        "delay": null
+      },
+      {
+        "_stop": "stop-escola-de-musica",
+        "delay": null
+      }
+    ]
+  }
+]

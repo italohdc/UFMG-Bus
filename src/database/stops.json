@@ -4,8 +4,8 @@
     "name": "Alameda dos Jacarandás"
   },
   {
-    "id": "stop-av-abrahao-caran",
-    "name": "Av. Abrahão Caran (em frente ao Restaurante Farroupilha)"
+    "id": "stop-av-abrahao-caram",
+    "name": "Av. Abrahão Caram (em frente ao Restaurante Farroupilha)"
   },
   {
     "id": "stop-av-cel-jose-dias-bicalho",
@@ -69,7 +69,7 @@
   },
   {
     "id": "stop-ciencia-da-informacao",
-    "name": "Ciência Da Informação"
+    "name": "Ciência da Informação"
   },
   {
     "id": "stop-cnen-cdtn",
@@ -100,7 +100,7 @@
     "name": "Escola de Música"
   },
   {
-    "id": "stop-estação-ecologica",
+    "id": "stop-estacao-ecologica",
     "name": "Estação Ecológica"
   },
   {
