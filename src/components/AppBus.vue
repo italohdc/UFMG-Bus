@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="light-blue darken-4">
-      <v-tabs v-model="activeTab" class="app-center-container"
-        color="light-blue darken-4" dark slider-color="yellow darken-3" grow
+    <div class="light-blue darken-4 bottom-shadow">
+      <v-tabs v-model="activeTab" class="app-center-container" elevation="12"
+        color="light-blue darken-4" dark slider-color="light-blue lighten-5" grow
       >
         <v-tab key="next">Próximos</v-tab>
         <v-tab key="lines">Linhas</v-tab>
@@ -45,4 +45,9 @@ export default {
 </script>
 
 <style>
+.bottom-shadow {
+  -webkit-box-shadow: 0 4px 2px -2px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 4px 2px -2px rgba(0,0,0,0.6);
+  box-shadow: 0 4px 2px -2px rgba(0,0,0,0.6);
+}
 </style>

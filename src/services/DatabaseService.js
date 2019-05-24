@@ -28,7 +28,6 @@ export default class DatabaseService {
     this.populate('_schedule', this.db.lines, this.db.schedules);
     this.populate('_route', this.db.lines, this.db.routes);
     this.populateArray('_stop', 'route', this.db.routes, this.db.stops);
-    console.log(this.db);
   }
 
   populate(modelName, collectionToPopulate, collectionToSearchFrom) {
