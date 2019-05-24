@@ -26,13 +26,26 @@ export default class DatabaseService {
     });
 
     this.populate('_schedule', this.db.lines, this.db.schedules);
+    this.populate('_route', this.db.lines, this.db.routes);
+    this.populateArray('_stop', 'route', this.db.routes, this.db.stops);
+    console.log(this.db);
   }
 
-  async populate(modelName, collectionToPopulate, collectionToSearchFrom) {
+  populate(modelName, collectionToPopulate, collectionToSearchFrom) {
     collectionToPopulate.forEach(collection => {
       if (typeof collection[modelName] === 'string' || collection[modelName] instanceof String) {
-        collection[modelName] = collectionToSearchFrom.find(col => col.id === collection[modelName]);
+        collection[modelName] = collectionToSearchFrom.find(colFrom => colFrom.id === collection[modelName]);
       }
+    });
+  }
+
+  populateArray(arrayName, modelName, collectionToPopulate, collectionToSearchFrom) {
+    collectionToPopulate.forEach(collection => {
+      collection[modelName].forEach(array => {
+        if (typeof array[arrayName] === 'string' || array[arrayName] instanceof String) {
+          array[arrayName] = collectionToSearchFrom.find(colFrom => colFrom.id === array[arrayName]);
+        }
+      });
     });
   }
 

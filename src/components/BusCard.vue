@@ -1,31 +1,33 @@
 <template>
-  <v-card
-    class="ma-3"
-    color="blue-grey lighten-5"
-    dark
-    ripple
-    hover
-  >
-    <v-card-title class="blue-grey lighten-1">
-      <div>
-        <h3 class="headline">{{ line }}</h3>
-        <span class="subheading">Período Letivo</span>
-      </div>
-      <v-spacer></v-spacer>
-      <div>
-        <span class="subheading">em aproximadamente</span>
-        <h3 class="title">{{ eta }} minutos</h3>
-      </div>
-    </v-card-title>
+  <v-card class="ma-3 py-2" color="blue-grey darken-1" dark ripple hover v-on:click="dialog = true">
+    <v-dialog v-model="dialog" width="400px">
+      <BusSchedule v-on:close-dialog="dialog = false" :line="line"/>
+    </v-dialog>
+    <v-layout row align-center>
+      <v-flex xs11>
+        <h3 class="headline">{{ line.name }}</h3>
+        <span class="subheading pa-3">{{ line.description }}</span>
+      </v-flex>
+      <v-flex xs1>
+        <v-icon>arrow_forward_ios</v-icon>
+      </v-flex>
+    </v-layout>
   </v-card>
 </template>
 
 <script>
+import BusSchedule from './BusSchedule.vue';
+
 export default {
   name: "BusCard",
+  components: {
+    BusSchedule
+  },
   props: {
-    line: String,
-    eta: Number
-  }
+    line: Object,
+  },
+  data: () => ({
+    dialog: false
+  })
 }
 </script>

@@ -1,20 +1,20 @@
 <template>
-  <div>
-    <NextBusCard
+  <div class="pd-4">
+    <BusCard
       v-for="line in lines" :key="`line-${line.id}`"
       :line="line"
-    ></NextBusCard>
+    ></BusCard>
   </div>
 </template>
 
 <script>
-import NextBusCard from './NextBusCard.vue';
+import BusCard from './BusCard.vue';
 import BusController from '../controllers/BusController';
 
 export default {
-  name: 'NextBus',
+  name: 'AllBus',
   components: {
-    NextBusCard
+    BusCard
   },
   data() {
     return {
