@@ -1,4 +1,5 @@
 import DatabaseService from '../services/DatabaseService';
+import { stringToLocalTime } from '../utils'
 
 const db = new DatabaseService();
 
@@ -21,11 +22,16 @@ export default {
       const schedule = line._schedule.times.map(schedule => {
         return {
           _line: line,
-          time: new Date(schedule)
+          time: stringToLocalTime(schedule.time),
+          isDuplicate: schedule.isDuplicate
         }
       });
       sortedSchedules.push.apply(sortedSchedules, schedule);
     });
+
+    // Remove duplicated line schedules
+    sortedSchedules = sortedSchedules.filter(schedule => !schedule.isDuplicate);
+
     sortedSchedules.sort(function(a,b){
       return new Date(a.time) - new Date(b.time);
     });

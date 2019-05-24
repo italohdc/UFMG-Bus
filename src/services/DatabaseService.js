@@ -54,7 +54,6 @@ export default class DatabaseService {
 
   getSortedByName(collection) {
     const table = this.db[collection];
-    console.log(table);
     return table
   }
 

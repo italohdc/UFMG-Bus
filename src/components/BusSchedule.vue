@@ -57,6 +57,8 @@
 </template>
 
 <script>
+import { stringToLocalTime } from '../utils'
+
 export default {
   name: 'BusSchedule',
   props: {
@@ -67,7 +69,7 @@ export default {
   }),
   computed: {
     timeByHour: function () {
-      const times = this.line._schedule.times.map(time => new Date(time));
+      const times = this.line._schedule.times.map(time => stringToLocalTime(time.time));
 
       const hours = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22];
       const timesByHour = hours.map(hour => {
@@ -85,8 +87,10 @@ export default {
     },
   },
   filters: {
-    timeToString: function (timeString) {
-      const time = new Date(timeString);
+    timeToString: function (inputTime) {
+      let time = inputTime;
+      if (!(inputTime instanceof Date)) { time = stringToLocalTime(inputTime) }
+
       const hour = (`00${time.getHours()}`).substr(-2,2);
       const minutes = (`00${time.getMinutes()}`).substr(-2,2);
       return `${hour}:${minutes}`;

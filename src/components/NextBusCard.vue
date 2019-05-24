@@ -1,6 +1,6 @@
 <template>
   <v-card
-    class="ma-3 pt-2" :color="details.time > now ? 'green darken-3' : 'deep-orange darken-4'"
+    class="ma-3 pt-2" :color="details.time > now ? 'grey darken-2' : 'light-green darken-3'"
     dark ripple hover v-on:click="dialog = true"
   >
     <v-dialog v-model="dialog" width="400px">

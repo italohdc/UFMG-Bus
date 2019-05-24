@@ -4,11 +4,11 @@
       <BusSchedule v-on:close-dialog="dialog = false" :line="line"/>
     </v-dialog>
     <v-layout row align-center>
-      <v-flex xs11>
+      <v-flex xs10>
         <h3 class="headline">{{ line.name }}</h3>
         <span class="subheading pa-3">{{ line.description }}</span>
       </v-flex>
-      <v-flex xs1>
+      <v-flex xs2 class="pa-1">
         <v-icon>arrow_forward_ios</v-icon>
       </v-flex>
     </v-layout>
