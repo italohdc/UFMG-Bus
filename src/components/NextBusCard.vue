@@ -1,7 +1,7 @@
 <template>
   <v-card
     class="ma-3 pt-2" :color="details.time > now ? 'grey darken-2' : 'light-green darken-3'"
-    dark ripple hover v-on:click="dialog = true"
+    dark ripple hover v-on:click="dialog = true" elevation="8"
   >
     <v-dialog v-model="dialog" width="400px">
       <BusSchedule v-model="dialog" v-on:close-dialog="dialog = false"
@@ -14,8 +14,15 @@
         <span class="caption">{{ details._line.description }}</span>
       </v-flex>
       <v-flex xs6>
-        <span class="caption">{{ details.time > now ? 'saída' : 'saiu' }} do ponto inicial</span>
         <h3 class="title">{{ details.time | timeToString}}</h3>
+        <span class="caption">{{ details.time > now ? 'saída' : 'saiu' }} do ponto inicial</span>
+      </v-flex>
+    </v-layout>
+    <v-layout row align-center
+      :class="{'pa-1': true, 'grey darken-1': details.time > now, 'light-green darken-2': details.time <= now}"
+    >
+      <v-flex xs12>
+        <h3 class="caption"><v-icon small>add</v-icon> DETALHES</h3>
       </v-flex>
     </v-layout>
   </v-card>
