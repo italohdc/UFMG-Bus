@@ -15,7 +15,7 @@ export default {
     const stops = db.get('stops');
     return stops;
   },
-  
+
   sortSchedulesLines() {
     const lines = db.get('lines');
     lines.forEach(line => {
@@ -55,9 +55,13 @@ export default {
       now.setMinutes(now.getMinutes() - timeOffset);
     }
 
+    // Get day of week
+    const todayDay = new Date().getDay();
+
     // Only return schedules bigger than current time
+    // and which is active in today's day of week
     const nextBuses = sortedSchedules.filter(time => {
-      return time.time > now;
+      return time.time > now && time._line._schedule.daysOfWeek.includes(todayDay);
     });
     return nextBuses.slice(0, limit ? limit : 12);
   }

@@ -1,6 +1,6 @@
 <template>
   <v-footer height="auto" light>
-    <v-layout justify-center row wrap light>
+    <v-layout justify-center row wrap light class="mt-4">
       <v-card-text>
         Este é um projeto de código aberto desenvolvido utilizando Vue.js
       </v-card-text>

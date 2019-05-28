@@ -3,6 +3,7 @@
     "id": "line-1",
     "name": "Linha 1",
     "description": "Período Letivo",
+    "canHideDescription": true,
     "_schedule": "sch-line-1",
     "_route": "route-line-1"
   },
@@ -17,6 +18,7 @@
     "id": "line-2",
     "name": "Linha 2",
     "description": "Período Letivo",
+    "canHideDescription": true,
     "_schedule": "sch-line-2",
     "_route": "route-line-2"
   },
@@ -38,6 +40,7 @@
     "id": "line-3",
     "name": "Linha 3",
     "description": "Período Letivo",
+    "canHideDescription": true,
     "_schedule": "sch-line-3",
     "_route": "route-line-3"
   },
@@ -52,6 +55,7 @@
     "id": "line-4",
     "name": "Linha 4",
     "description": "Período Letivo",
+    "canHideDescription": true,
     "_schedule": "sch-line-4",
     "_route": "route-line-4"
   },
@@ -68,5 +72,13 @@
     "description": "Atendimento BH-TEC e McDonalds",
     "_schedule": "sch-line-4-mc-bhtec",
     "_route": "route-line-4-mc-bhtec"
+  },
+  {
+    "id": "line-5",
+    "name": "Linha 5",
+    "description": "Circula somente no sábado",
+    "canHideDescription": true,
+    "_schedule": "sch-line-5",
+    "_route": "route-line-3"
   }
 ]

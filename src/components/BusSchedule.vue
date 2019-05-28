@@ -1,5 +1,6 @@
 <template>
   <v-card>
+    <!-- Card Header -->
     <v-toolbar flat class="yellow lighten-1">
       <v-spacer></v-spacer>
       <v-btn icon @click="closeDialog()">
@@ -16,6 +17,7 @@
       <p>{{ line.description }}</p>
     </v-toolbar>
 
+    <!-- Card Tabs -->
     <v-tabs
       v-model="activeTab"
       color="yellow lighten-1"
@@ -26,11 +28,22 @@
       <v-tab key="schedule" ripple>Horários</v-tab>
       <v-tab key="route" ripple>Rota</v-tab>
     </v-tabs>
+
+    <!-- Card Content -->
     <v-tabs-items v-model="activeTab">
       <v-tab-item key="schedule" class="px-2 py-4">
-        <v-layout v-for="times in timeByHour" :key="`stop1-${line.id}-${times.hour}`"
-          row align-center class="py-1"
-        >
+
+        <!-- Days of Week -->
+        <v-layout row align-center wrap class="pb-4">
+          <v-flex v-for="(day, index) in daysOfWeek" :key="`day-${line.id}-${index}`" class="py-1">
+            <div :class="`${day.isActive ? 'amber lighten-1' : 'grey lighten-3'} py-2 mx-1 rounded-day`">
+              {{ day.name }}
+            </div>
+          </v-flex>
+        </v-layout>
+
+        <!-- Timestamps -->
+        <v-layout v-for="times in timeByHour" :key="`stop1-${line.id}-${times.hour}`" row align-center class="py-1">
           <v-flex xs3 class="pr-2">
             <v-layout justify-end>{{ `${times.hour}h` }}</v-layout>
           </v-flex>
@@ -43,6 +56,8 @@
           </v-flex>
         </v-layout>
       </v-tab-item>
+
+      <!-- Route -->
       <v-tab-item key="route" class="pa-2">
         <v-card-text>
           <p class="text-left title pl-4 py-2">Início</p>
@@ -79,6 +94,15 @@ export default {
         }
       });
       return timesByHour;
+    },
+    daysOfWeek: function () {
+      const days = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'];
+      return days.map((day, index) => {
+        return {
+          name: day,
+          isActive: this.line._schedule.daysOfWeek.includes(index)
+        }
+      });
     }
   },
   methods: {
@@ -102,5 +126,9 @@ export default {
 <style>
 .text-left {
   text-align: left;
+}
+
+.rounded-day {
+  border-radius: 100px;
 }
 </style>

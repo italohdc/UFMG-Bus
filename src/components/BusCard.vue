@@ -1,15 +1,19 @@
 <template>
-  <v-card class="ma-3 py-2" color="blue-grey darken-1" dark ripple hover v-on:click="dialog = true">
-    <v-dialog v-model="dialog" width="400px">
+  <v-card class="ma-3 pt-2" color="blue-grey darken-1" dark ripple hover v-on:click="dialog = true">
+    <v-dialog v-model="dialog" width="400px" lazy>
       <BusSchedule v-on:close-dialog="dialog = false" :line="line"/>
     </v-dialog>
-    <v-layout row align-center>
-      <v-flex xs10>
+    <v-layout row align-center class="pb-1">
+      <v-flex xs4 class="pa-1">
         <h3 class="headline">{{ line.name }}</h3>
-        <span class="subheading pa-3">{{ line.description }}</span>
       </v-flex>
-      <v-flex xs2 class="pa-1">
-        <v-icon>arrow_forward_ios</v-icon>
+      <v-flex xs8 class="align-text-left">
+        <span class="subheading">{{ line.description }}</span>
+      </v-flex>
+    </v-layout>
+    <v-layout row align-center class="blue-grey darken-2 pa-1">
+      <v-flex xs12>
+        <h3 class="caption"><v-icon small>add</v-icon> DETALHES</h3>
       </v-flex>
     </v-layout>
   </v-card>
@@ -31,3 +35,9 @@ export default {
   })
 }
 </script>
+
+<style>
+.align-text-left {
+  text-align: left;
+}
+</style>
