@@ -1,6 +1,6 @@
 <template>
   <v-card
-    class="ma-3 pt-2" :color="details.time > now ? 'grey darken-2' : 'light-green darken-3'"
+    class="ma-3 pt-2" :color="details.time > now ? 'light-green darken-3' : 'grey darken-2'"
     dark ripple hover v-on:click="dialog = true" elevation="6"
   >
     <v-dialog v-model="dialog" width="400px" lazy>
@@ -19,7 +19,7 @@
       </v-flex>
     </v-layout>
     <v-layout row align-center
-      :class="{'pa-1': true, 'grey darken-1': details.time > now, 'light-green darken-2': details.time <= now}"
+      :class="{'pa-1': true, 'light-green darken-2': details.time > now, 'grey darken-1': details.time <= now}"
     >
       <v-flex xs12>
         <h3 class="caption"><v-icon small>add</v-icon> DETALHES</h3>
