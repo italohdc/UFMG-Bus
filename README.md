@@ -1,8 +1,19 @@
 # UFMG Bus: [onibusufmg.com](https://onibusufmg.com/)
 
-Página de Horários dos Ônibus internos da UFMG feita em Vue.js
+<p align="center">
+  Página de Horários dos Ônibus internos da UFMG feita em Vue.js
+</p>
 
-![Banner](../assets/banner.png?raw=true)
+<p align="center">
+  <a href="https://travis-ci.com/italohdc/UFMG-Bus"><img src="https://travis-ci.com/italohdc/UFMG-Bus.svg?branch=master" alt="Build Status"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/italohdc/UFMG-Bus.svg" alt="Coverage Status"></a>
+</p>
+
+<p align="center">
+  <img src="../assets/banner.png?raw=true" alt="Banner" width="80%">
+</p>
+
+## Sobre o Projeto
 
 Este projeto visa contribuir com a **mobilidade** das pessoas no campus. Ele foi desenvolvido utilizando como base o framework [Vue.js](https://vuejs.org/). Além disso, também foi incluída a biblioteca de componentes [Vuetify](https://vuetifyjs.com/), com o intuito de agilizar a criação do design da página.
 
