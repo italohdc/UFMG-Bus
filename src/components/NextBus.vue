@@ -30,8 +30,8 @@ export default {
   },
   methods: {
     trackIncrease () {
-      this.counter++;
-      this.$ga.event('next-card-click', 'increase', this.counter);
+      this.trackCounter++;
+      this.$ga.event('next-card-click', 'increase', this.trackCounter);
     }
   }
 }

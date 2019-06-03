@@ -18,6 +18,9 @@ export default {
     AppBus,
     Header,
     Footer
+  },
+  created () {
+    this.$ga.page('/');
   }
 };
 </script>

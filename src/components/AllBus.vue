@@ -23,9 +23,9 @@ export default {
     }
   },
   methods: {
-    trackingIncrease () {
-      this.counter++;
-      this.$ga.event('all-buss-card-click', 'increase', this.counter);
+    trackIncrease () {
+      this.trackCounter++;
+      this.$ga.event('all-buss-card-click', 'increase', this.trackCounter);
     }
   }
 }
