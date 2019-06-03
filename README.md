@@ -1,4 +1,6 @@
-# UFMG Bus: [onibusufmg.com](https://onibusufmg.com/)
+<h1 align="center">
+  UFMG Bus: <a href="https://onibusufmg.com/">onibusufmg.com</a>
+</h1>
 
 <p align="center">
   Página de Horários dos Ônibus internos da UFMG feita em Vue.js
