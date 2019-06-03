@@ -2,7 +2,7 @@
   <div>
     <NextBusCard
       v-for="(schedule, index) in nextBuses" :key="`${index}-${schedule._line.id}`"
-      :details="schedule" :selectedTime="schedule.time"
+      :details="schedule" :selectedTime="schedule.time" @click="trackIncrease()"
     ></NextBusCard>
     <v-card-text v-if="nextBuses.length === 0" class="pa-4">
       <p class="title py-4">
@@ -24,7 +24,14 @@ export default {
   data() {
     return {
       lines: BusController.availableLines(),
-      nextBuses: BusController.nextSchedules(20, 12)
+      nextBuses: BusController.nextSchedules(20, 12),
+      trackCounter: 0
+    }
+  },
+  methods: {
+    trackIncrease () {
+      this.counter++;
+      this.$ga.event('next-card-click', 'increase', this.counter);
     }
   }
 }
