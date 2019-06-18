@@ -10,6 +10,10 @@
     </div>
 
     <div class="app-center-container">
+      <AlertCard></AlertCard>
+    </div>
+
+    <div class="app-center-container">
       <v-tabs-items v-model="activeTab">
         <v-tab-item key="next">
           <NextBus id="next-bus"></NextBus>
@@ -25,12 +29,14 @@
 <script>
 import BusController from '../controllers/BusController';
 import AllBus from './AllBus.vue';
+import AlertCard from './AlertCard.vue';
 import NextBus from './NextBus.vue';
 
 export default {
   name: 'AppBus',
   components: {
     AllBus,
+    AlertCard,
     NextBus
   },
   data() {
