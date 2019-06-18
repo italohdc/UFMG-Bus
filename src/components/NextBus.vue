@@ -1,5 +1,6 @@
 <template>
   <div>
+    <AlertCard></AlertCard>
     <NextBusCard
       v-for="(schedule, index) in nextBuses" :key="`${index}-${schedule._line.id}`"
       :details="schedule" :selectedTime="schedule.time" @click="trackIncrease()"
@@ -13,12 +14,14 @@
 </template>
 
 <script>
+import AlertCard from './AlertCard.vue';
 import NextBusCard from './NextBusCard.vue';
 import BusController from '../controllers/BusController';
 
 export default {
   name: 'NextBus',
   components: {
+    AlertCard,
     NextBusCard
   },
   data() {

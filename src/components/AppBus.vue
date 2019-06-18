@@ -29,14 +29,12 @@
 <script>
 import BusController from '../controllers/BusController';
 import AllBus from './AllBus.vue';
-import AlertCard from './AlertCard.vue';
 import NextBus from './NextBus.vue';
 
 export default {
   name: 'AppBus',
   components: {
     AllBus,
-    AlertCard,
     NextBus
   },
   data() {
