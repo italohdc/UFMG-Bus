@@ -10,10 +10,6 @@
     </div>
 
     <div class="app-center-container">
-      <AlertCard></AlertCard>
-    </div>
-
-    <div class="app-center-container">
       <v-tabs-items v-model="activeTab">
         <v-tab-item key="next">
           <NextBus id="next-bus"></NextBus>

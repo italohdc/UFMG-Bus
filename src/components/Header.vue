@@ -1,9 +1,12 @@
 <template>
-  <div dark class="light-blue darken-4 pa-4" justify-center>
+  <div dark class="light-blue darken-4 pt-4 px-4 pb-1" justify-center>
     <div class="app-center-container">
       <img id="header-img" src="../assets/logo.png" alt="Ônibus UFMG">
       <v-card-text class="white--text subheading">
         Horários dos próximos ônibus internos do campus Pampulha
+      </v-card-text>
+      <v-card-text class="white--text subheading alert-opacity">
+        Atualizado em <b>04/03/2020</b>
       </v-card-text>
     </div>
   </div>
@@ -18,5 +21,9 @@ export default {
 <style scoped>
 #header-img {
   max-width: 100%;
+}
+
+.alert-opacity {
+  opacity: 0.6;
 }
 </style>

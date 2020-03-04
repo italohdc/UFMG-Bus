@@ -1,5 +1,10 @@
 <template>
-  <v-card class="ma-3 pt-2" color="blue-grey darken-1" dark ripple hover v-on:click="dialog = true">
+  <v-card
+    :class="['ma-3 pt-2', { 'apply-transparency': line.isDisabled }]"
+    color="blue-grey darken-1"
+    dark :ripple="!line.isDisabled" :hover="!line.isDisabled"
+    v-on:click="openModalDetails()"
+  >
     <v-dialog v-model="dialog" width="400px" lazy>
       <BusSchedule v-on:close-dialog="dialog = false" :line="line"/>
     </v-dialog>
@@ -13,7 +18,8 @@
     </v-layout>
     <v-layout row align-center class="blue-grey darken-2 pa-1">
       <v-flex xs12>
-        <h3 class="caption"><v-icon small>add</v-icon> DETALHES</h3>
+        <h3 v-if="line.isDisabled" class="caption">DESATIVADO</h3>
+        <h3 v-else class="caption"><v-icon small>add</v-icon> DETALHES</h3>
       </v-flex>
     </v-layout>
   </v-card>
@@ -32,12 +38,22 @@ export default {
   },
   data: () => ({
     dialog: false
-  })
+  }),
+  methods: {
+    openModalDetails() {
+      if (this.line.isDisabled) return;
+      this.dialog = true;
+    }
+  }
 }
 </script>
 
 <style>
 .align-text-left {
   text-align: left;
+}
+
+.apply-transparency {
+  opacity: 0.4;
 }
 </style>

@@ -1,11 +1,14 @@
 <template>
-  <v-card v-if="showAlert" class="ma-3 mb-4" color="red lighten-3"
-    light ripple hover elevation="6" :href="link" target="_blank"
+  <v-card v-if="showAlert" class="ma-3 mb-4 pt-3" :color="primaryColor"
+    dark ripple hover elevation="6" :href="link" target="_blank"
   >
-    <v-card-title>
-      <h2 id="card-title" class="headline"><v-icon>info</v-icon> Aviso </h2>
+    <v-card-title v-if="title">
+      <h2 id="card-title" class="headline"><v-icon>info</v-icon> {{ title }} </h2>
     </v-card-title>
-    <v-layout class="px-2 red lighten-1" column align-center>
+    <v-layout
+      :class="['px-2', secondaryColor]"
+      column align-center
+    >
       <v-flex xs12>
       </v-flex>
     </v-layout>
@@ -14,9 +17,9 @@
         <p>{{ text }}</p>
       </v-flex>
     </v-layout>
-    <v-layout row align-center class="red lighten-2 pa-2">
+    <v-layout row align-center :class="['pa-2', tertiaryColor]">
       <v-flex xs12>
-        <h3 class="caption"><v-icon small>open_in_new</v-icon> Ler Notícia</h3>
+        <h3 class="caption"><v-icon small>open_in_new</v-icon> {{ buttonLabel }}</h3>
       </v-flex>
     </v-layout>
   </v-card>
@@ -27,17 +30,30 @@ export default {
   name: 'AlertCard',
   data() {
     return {
-      link: 'https://ufmg.br/comunicacao/noticias/rota-de-onibus-interno-da-ufmg-e-alterada-em-dias-de-jogos-da-copa-america',
-      text: 'Os ônibus podem ter rotas e horários alterados em dias de jogos da Copa América no Mineirão'
+      link: 'https://www.ufmg.br/dlo/tranporteinterno.php',
+      text: 'Você pode conferir o quadro oficial de horários no site do DLO',
+      buttonLabel: 'Acessar PDF com horários',
+      variant: "info"
     }
   },
   computed: {
     showAlert: () => {
-      const now = new Date();
-      const startDate = new Date('2019-06-18T00:00:00.000Z');
-      const endDate = new Date('2019-06-25T04:00:00.000Z');
-
-      return (now > startDate && now < endDate);
+      return true;
+    },
+    primaryColor() {
+      if (this.variant === "danger") return "red lighten-3";
+      if (this.variant === "info") return "blue darken-3";
+      return "grey darken-2";
+    },
+    secondaryColor() {
+      if (this.variant === "danger") return "red lighten-1";
+      if (this.variant === "info") return "blue darken-2";
+      return "grey darken-1";
+    },
+    tertiaryColor() {
+      if (this.variant === "danger") return "red lighten-2";
+      if (this.variant === "info") return "blue darken-2";
+      return "grey darken-1";
     }
   }
 }
