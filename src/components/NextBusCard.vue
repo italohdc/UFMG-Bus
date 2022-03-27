@@ -30,6 +30,7 @@
 
 <script>
 import BusSchedule from './BusSchedule.vue';
+import { getNowTime } from '../utils'
 
 export default {
   name: "NextBusCard",
@@ -52,7 +53,7 @@ export default {
   },
   computed: {
     now: () => {
-      const now = new Date();
+      const now = getNowTime();
       now.setFullYear(1970);
       now.setMonth(0);
       now.setDate(1);

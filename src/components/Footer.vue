@@ -1,8 +1,11 @@
 <template>
   <v-footer height="auto" light>
     <v-layout justify-center row wrap light class="mt-4">
-      <v-card-text>
-        Este é um projeto de código aberto desenvolvido utilizando Vue.js
+      <v-card-text class="px-5">
+        Este é um projeto <i>open-source</i>, por isso sua colaboração é essencial.
+        <br>
+        Caso ocorra alterações nos horários ou você encontre algum erro/bug,
+        deixe uma mensagem no GitHub do projeto.
       </v-card-text>
       <v-btn v-for="link in links" :key="link.text" :href="link.url" target="_blank" flat round>
         {{ link.text }}
@@ -23,12 +26,12 @@ export default {
   data: () => ({
     links: [
       {
-        text: 'Sobre',
+        text: 'GitHub',
         url: 'https://github.com/italohdc/UFMG-Bus'
       },
       {
-        text: 'GitHub',
-        url: 'https://github.com/italohdc/UFMG-Bus'
+        text: 'Reportar Problema',
+        url: 'https://github.com/italohdc/UFMG-Bus/issues'
       },
       {
         text: 'Licença',

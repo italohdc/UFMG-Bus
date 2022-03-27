@@ -1,5 +1,5 @@
 <h1 align="center">
-  UFMG Bus: <a href="https://onibusufmg.com/">onibusufmg.com</a>
+  UFMG Bus: <a href="https://onibusufmg.surge.sh/">onibusufmg.surge.sh</a>
 </h1>
 
 <p align="center">
@@ -40,7 +40,7 @@ npm run build
 
 ## Informações Gerais
 
-O quadro de horários utilizado foi extraído do [Portal do DLO](https://www.ufmg.br/dlo/tranporteinterno.php) e foi atualizado pela Divisão de Transportes do DLO em **março de 2019**.
+O quadro de horários utilizado foi extraído do [Portal do DLO](https://www.ufmg.br/dlo/tranporteinterno.php).
 
 Este projeto é independente e não possui vínculo formal com a UFMG.
 

@@ -1,7 +1,14 @@
 const stringToLocalTime = (string) => {
   // Assure the date is parsed as local time
-  const split = string.split(/\D/);
-  return new Date(1970, 0, 1, split[3], split[4]);
+  const split = string.split(/:/);
+  return new Date(1970, 0, 1, split[0], split[1]);
 }
 
-export { stringToLocalTime }
+const getNowTime = () => {
+  return new Date();
+}
+
+export {
+  stringToLocalTime,
+  getNowTime,
+}

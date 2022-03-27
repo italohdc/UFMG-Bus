@@ -4,9 +4,11 @@
       <img id="header-img" src="../assets/logo.png" alt="Ônibus UFMG">
       <v-card-text class="white--text subheading">
         Horários dos próximos ônibus internos do campus Pampulha
+        <br>
+        (Período Letivo)
       </v-card-text>
       <v-card-text class="white--text subheading alert-opacity">
-        Atualizado em <b>04/03/2020</b>
+        Atualizado em <b>26/03/2022</b>
       </v-card-text>
     </div>
   </div>

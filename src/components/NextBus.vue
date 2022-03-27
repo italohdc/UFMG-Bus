@@ -1,10 +1,12 @@
 <template>
   <div>
-    <AlertCard></AlertCard>
     <NextBusCard
       v-for="(schedule, index) in nextBuses" :key="`${index}-${schedule._line.id}`"
       :details="schedule" :selectedTime="schedule.time" @click="trackIncrease()"
     ></NextBusCard>
+
+    <AlertCard />
+
     <v-card-text v-if="nextBuses.length === 0" class="pa-4">
       <p class="title py-4">
         Nenhum ônibus com horário previsto para saída hoje

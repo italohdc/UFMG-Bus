@@ -1,5 +1,5 @@
 import DatabaseService from '../services/DatabaseService';
-import { stringToLocalTime } from '../utils'
+import { stringToLocalTime, getNowTime } from '../utils'
 
 const db = new DatabaseService();
 
@@ -45,7 +45,7 @@ export default {
 
     // Get current time and change date to 1970 to have
     // the same date as saved on db
-    const now = new Date();
+    const now = getNowTime();
     now.setFullYear(1970);
     now.setMonth(0);
     now.setDate(1);
@@ -56,7 +56,7 @@ export default {
     }
 
     // Get day of week
-    const todayDay = new Date().getDay();
+    const todayDay = getNowTime().getDay();
 
     // Only return schedules bigger than current time
     // and which is active in today's day of week
