@@ -30,6 +30,7 @@ export default {
   name: 'AlertCard',
   data() {
     return {
+      title: null,
       link: 'https://www.ufmg.br/dlo/tranporteinterno.php',
       text: 'Você pode conferir o quadro oficial de horários no site do DLO',
       buttonLabel: 'Acessar PDF com horários',

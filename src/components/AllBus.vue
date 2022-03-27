@@ -1,7 +1,7 @@
 <template>
   <div class="pd-4">
     <BusCard
-      v-for="line in lines" :key="`line-${line.id}`"
+      v-for="line in sortedLines" :key="`line-${line.id}`"
       :line="line" @click="trackIncrease()"
     ></BusCard>
   </div>
@@ -20,6 +20,15 @@ export default {
     return {
       lines: BusController.availableLines(),
       trackCounter: 0
+    }
+  },
+  computed: {
+    sortedLines() {
+      return this.lines.sort((a, b) => {
+        if (a.isDisabled && !b.isDisabled) return 1;
+        if (!a.isDisabled && b.isDisabled) return -1;
+        return 0;
+      });
     }
   },
   methods: {

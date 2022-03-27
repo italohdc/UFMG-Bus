@@ -3,6 +3,7 @@ import Locations from '../database/locations.json';
 import Stops from '../database/stops.json';
 import Routes from '../database/routes.json';
 import Schedules from '../database/schedules.json';
+import Disclaimers from '../database/disclaimers.json';
 
 const shouldSortByName = ['lines', 'stops'];
 
@@ -14,6 +15,7 @@ export default class DatabaseService {
       stops: Stops,
       routes: Routes,
       schedules: Schedules,
+      disclaimers: Disclaimers,
     };
 
     // Sort some collections by name

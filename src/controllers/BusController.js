@@ -16,14 +16,21 @@ export default {
     return stops;
   },
 
+  findDisclaimer(id) {
+    const disclaimers = db.get('disclaimers');
+    return disclaimers.find(disclaimer => disclaimer.id === id);
+  },
+
   sortSchedulesLines() {
     const lines = db.get('lines');
+
     lines.forEach(line => {
       const schedule = line._schedule.times.map(schedule => {
         return {
           _line: line,
           time: stringToLocalTime(schedule.time),
-          isDuplicate: schedule.isDuplicate
+          isDuplicate: schedule.isDuplicate,
+          disclaimer: this.findDisclaimer(schedule._disclaimer),
         }
       });
       sortedSchedules.push.apply(sortedSchedules, schedule);

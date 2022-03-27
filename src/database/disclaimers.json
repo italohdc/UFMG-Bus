@@ -1,0 +1,12 @@
+[
+  {
+    "id": "retorno-area-militar",
+    "description": "Retorno na área militar",
+    "icon": "*"
+  },
+  {
+    "id": "nao-atende-adm-3",
+    "description": "Não atende a Unidade Administrativa III",
+    "icon": "**"
+  }
+]

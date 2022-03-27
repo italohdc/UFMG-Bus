@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container-next-bus">
     <NextBusCard
       v-for="(schedule, index) in nextBuses" :key="`${index}-${schedule._line.id}`"
       :details="schedule" :selectedTime="schedule.time" @click="trackIncrease()"

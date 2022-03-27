@@ -37,16 +37,16 @@
       { "time": "07:50" },
       { "time": "09:05" },
       { "time": "10:20" },
-      { "time": "11:30" },
-      { "time": "12:10" },
-      { "time": "12:50" },
-      { "time": "13:45" },
+      { "time": "11:30", "_disclaimer": "retorno-area-militar" },
+      { "time": "12:10", "_disclaimer": "retorno-area-militar" },
+      { "time": "12:50", "_disclaimer": "retorno-area-militar" },
+      { "time": "13:45", "_disclaimer": "retorno-area-militar" },
       { "time": "14:30" },
       { "time": "15:30" },
       { "time": "16:10" },
       { "time": "16:50" },
-      { "time": "17:30" },
-      { "time": "18:20" },
+      { "time": "17:30", "_disclaimer": "retorno-area-militar" },
+      { "time": "18:20", "_disclaimer": "retorno-area-militar" },
       { "time": "19:20" },
       { "time": "20:00" },
       { "time": "20:50" },
@@ -76,21 +76,21 @@
       { "time": "09:20" },
       { "time": "10:00" },
       { "time": "10:40" },
-      { "time": "11:20" },
-      { "time": "12:00" },
-      { "time": "12:40" },
-      { "time": "13:30" },
+      { "time": "11:20", "_disclaimer": "retorno-area-militar" },
+      { "time": "12:00", "_disclaimer": "retorno-area-militar" },
+      { "time": "12:40", "_disclaimer": "retorno-area-militar" },
+      { "time": "13:30", "_disclaimer": "retorno-area-militar" },
       { "time": "14:55" },
       { "time": "16:00" },
       { "time": "16:40" },
-      { "time": "17:20" },
-      { "time": "18:10" },
+      { "time": "17:20", "_disclaimer": "retorno-area-militar" },
+      { "time": "18:10", "_disclaimer": "retorno-area-militar" },
       { "time": "19:05" },
       { "time": "20:30" },
       { "time": "21:10" },
       { "time": "21:50" },
       { "time": "22:10" },
-      { "time": "22:50" },
+      { "time": "22:50", "_disclaimer": "nao-atende-adm-3" },
 
 
       {
@@ -107,7 +107,7 @@
     "daysOfWeek": [1,2,3,4,5],
     "times": [
       { "time": "07:40" },
-      { "time": "17:20" }
+      { "time": "17:20", "_disclaimer": "retorno-area-militar" }
     ]
   },
   {
@@ -119,17 +119,17 @@
       { "time": "07:20", "isDuplicate": true },
       { "time": "08:05" },
       { "time": "08:50" },
-      { "time": "11:00", "isDuplicate": true },
-      { "time": "11:40", "isDuplicate": true },
-      { "time": "12:20", "isDuplicate": true },
-      { "time": "13:05", "isDuplicate": true },
-      { "time": "13:55", "isDuplicate": true },
+      { "time": "11:00", "isDuplicate": true, "_disclaimer": "retorno-area-militar" },
+      { "time": "11:40", "isDuplicate": true, "_disclaimer": "retorno-area-militar" },
+      { "time": "12:20", "isDuplicate": true, "_disclaimer": "retorno-area-militar" },
+      { "time": "13:05", "isDuplicate": true, "_disclaimer": "retorno-area-militar" },
+      { "time": "13:55", "isDuplicate": true, "_disclaimer": "retorno-area-militar" },
       { "time": "14:45" },
       { "time": "15:40" },
       { "time": "16:20" },
-      { "time": "17:00", "isDuplicate": true },
-      { "time": "17:40", "isDuplicate": true },
-      { "time": "18:35" },
+      { "time": "17:00", "isDuplicate": true, "_disclaimer": "retorno-area-militar" },
+      { "time": "17:40", "isDuplicate": true, "_disclaimer": "retorno-area-militar" },
+      { "time": "18:35", "_disclaimer": "retorno-area-militar" },
       { "time": "20:15" }
     ]
   },
@@ -139,13 +139,13 @@
     "times": [
       { "time": "06:40" },
       { "time": "07:20", "isDuplicate": true },
-      { "time": "11:00" },
-      { "time": "11:40" },
-      { "time": "12:20", "isDuplicate": true },
-      { "time": "13:05" },
-      { "time": "13:55" },
-      { "time": "17:00", "isDuplicate": true },
-      { "time": "17:40" }
+      { "time": "11:00", "_disclaimer": "retorno-area-militar" },
+      { "time": "11:40", "_disclaimer": "retorno-area-militar" },
+      { "time": "12:20", "isDuplicate": true, "_disclaimer": "retorno-area-militar" },
+      { "time": "13:05", "_disclaimer": "retorno-area-militar" },
+      { "time": "13:55", "_disclaimer": "retorno-area-militar" },
+      { "time": "17:00", "isDuplicate": true, "_disclaimer": "retorno-area-militar" },
+      { "time": "17:40", "_disclaimer": "retorno-area-militar" }
     ]
   },
   {
@@ -153,8 +153,8 @@
     "daysOfWeek": [1,2,3,4,5],
     "times": [
       { "time": "07:20" },
-      { "time": "12:20" },
-      { "time": "17:00" }
+      { "time": "12:20", "_disclaimer": "retorno-area-militar" },
+      { "time": "17:00", "_disclaimer": "retorno-area-militar" }
     ]
   },
   {

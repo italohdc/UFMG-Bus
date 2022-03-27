@@ -11,11 +11,14 @@
     <v-layout row align-center class="pb-2">
       <v-flex xs6>
         <h3 class="headline">{{ details._line.name }}</h3>
-        <span v-if="!details._line.canHideDescription" class="caption">{{ details._line.description }}</span>
+        <span v-if="!details._line.canHideDescription" class="caption description">{{ details._line.description }}</span>
+        <span v-if="details.disclaimer" class="caption description disclaimer">
+          {{ details.disclaimer.description }}
+        </span>
       </v-flex>
-      <v-flex xs6 class="pb-1">
-        <span class="caption">{{ details.time > now ? 'saída' : 'saiu' }} do ponto inicial</span>
-        <h3 class="title">{{ details.time | timeToString}}</h3>
+      <v-flex xs6>
+        <h3 class="headline">{{ details.time | timeToString}}</h3>
+        <span class="caption disclaimer mt-0">{{ details.time > now ? 'saída' : 'saiu' }} do ponto inicial</span>
       </v-flex>
     </v-layout>
     <v-layout row align-center
@@ -62,3 +65,13 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.description {
+  display: block;
+}
+
+.disclaimer {
+  opacity: 0.5;
+}
+</style>

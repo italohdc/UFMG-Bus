@@ -43,18 +43,26 @@
         </v-layout>
 
         <!-- Timestamps -->
-        <v-layout v-for="times in timeByHour" :key="`stop1-${line.id}-${times.hour}`" row align-center class="py-1">
+        <v-layout v-for="hour in scheduleByHour" :key="`stop1-${line.id}-${hour.hour}`" row align-center class="py-1">
           <v-flex xs3 class="pr-2">
-            <v-layout justify-end>{{ `${times.hour}h` }}</v-layout>
+            <v-layout justify-end>{{ `${hour.hour}h` }}</v-layout>
           </v-flex>
           <v-flex xs9 class="pl-2">
             <v-layout justify-start>
-              <v-chip v-for="(time, index) in times.times" :key="`stop2-${line.id}-${index}`" class="text-left subheading">
-                {{ time | timeToString }}
+              <v-chip v-for="(schedule, index) in hour.schedules" :key="`stop2-${line.id}-${index}`" class="text-left subheading">
+                {{ schedule.time | timeToString }}
+                <span v-if="schedule.disclaimer" class="ml-1 red--text text--darken-4">{{ schedule.disclaimer.icon }}</span>
               </v-chip>
             </v-layout>
           </v-flex>
         </v-layout>
+
+        <v-card-text class="red--text text--darken-4">
+          <p v-for="disclaimer in disclaimersToShow" :key="`disclaimer-${disclaimer.id}`" class="text-left body-2 mb-1">
+            {{ disclaimer.icon }}
+            {{ disclaimer.description }}
+          </p>
+        </v-card-text>
       </v-tab-item>
 
       <!-- Route -->
@@ -72,6 +80,7 @@
 </template>
 
 <script>
+import BusController from '../controllers/BusController';
 import { stringToLocalTime } from '../utils'
 
 export default {
@@ -80,20 +89,23 @@ export default {
     line: { type: Object, required: false },
   },
   data: () => ({
-    activeTab: null
+    activeTab: null,
   }),
   computed: {
-    timeByHour: function () {
-      const times = this.line._schedule.times.map(time => stringToLocalTime(time.time));
+    scheduleByHour: function () {
+      const schedules = this.line._schedule.times.map(time => ({
+        time: stringToLocalTime(time.time),
+        disclaimer: BusController.findDisclaimer(time._disclaimer),
+      }));
 
       const hours = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22];
-      const timesByHour = hours.map(hour => {
+      const scheduleByHour = hours.map(hour => {
         return {
           hour: hour,
-          times: times.filter(time => hour === time.getHours())
+          schedules: schedules.filter(time => hour === time.time.getHours())
         }
       });
-      return timesByHour;
+      return scheduleByHour;
     },
     daysOfWeek: function () {
       const days = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'];
@@ -103,7 +115,19 @@ export default {
           isActive: this.line._schedule.daysOfWeek.includes(index)
         }
       });
-    }
+    },
+    disclaimersToShow: function () {
+      let disclaimers = this.line._schedule.times
+        .map(time => time._disclaimer)
+        .filter(disclaimer => !!disclaimer)
+        .filter(disclaimer => !!disclaimer);
+
+      disclaimers = disclaimers.filter(function(item, pos) {
+        return disclaimers.indexOf(item) == pos;
+      })
+
+      return disclaimers.map(disclaimer => BusController.findDisclaimer(disclaimer));
+    },
   },
   methods: {
     closeDialog() {
