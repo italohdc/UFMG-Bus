@@ -107,7 +107,7 @@
     "daysOfWeek": [1,2,3,4,5],
     "times": [
       { "time": "07:40" },
-      { "time": "17:20", "_disclaimer": "retorno-area-militar" }
+      { "time": "17:20" }
     ]
   },
   {
